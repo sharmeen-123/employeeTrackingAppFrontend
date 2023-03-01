@@ -1,0 +1,55 @@
+.navbar{
+    background-color: #DCFFE4;
+}
+.mantine-1kjc5hm{
+    color:  #338B47;
+}
+.__mantine-ref-icon{
+    color: #7DD190;
+}
+a span{
+    color: #7DD190;
+}
+a:hover span{
+    color:  #338B47;
+}
+
+.mantine-1kjc5hm span{
+    color:  #338B47;
+}
+
+
+.mantine-1kjc5hm .__mantine-ref-icon{
+    color:  #338B47;
+}
+.mantine-1kjc5hm:hover .__mantine-ref-icon {
+    color:  #338B47;
+}
+.navbarArrow{
+    display: flex;
+    justify-content: end;
+}
+.navbarTitle{
+    text-align: center;
+    font-family: Century Gothic;
+    /* width:100%; */
+}
+
+.navbarTitle p{
+    font-weight: 400;
+    font-size: 30px;
+
+}
+.navbarTitle h1{
+    font-weight: 700;
+    font-size: 52px;
+}
+.links{
+    margin: 15px;
+}
+.navbarSpace{
+    margin-top: 140px;
+}
+.navbarFooter{
+    margin-left: 20px;
+}
