@@ -42,10 +42,10 @@ function addUserform() {
         <input 
           type={"text"}
           placeholder="enter address"/>
-          <dic className={"form"}>
+          <div className={"form"}>
           <button className='cancel'>Cancel</button>
           <button className='create'>Create</button>
-          </dic>
+          </div>
           
       </div>
 

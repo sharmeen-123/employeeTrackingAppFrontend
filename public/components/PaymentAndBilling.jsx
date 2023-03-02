@@ -103,7 +103,7 @@ const PaymentAndBilling = () => {
             </div>
             <div className={"sideBody"}>
                 <div className='header'>
-                    <HeaderTabs user={user} />
+                    <HeaderTabs user={user} text={"Payment And Billing"}/>
                 </div>
                 <div className='main'>
                     <div className='payment-Billing'>

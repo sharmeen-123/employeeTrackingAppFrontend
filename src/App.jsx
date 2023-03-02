@@ -5,6 +5,7 @@ import PaymentAndBilling from "../public/components/PaymentAndBilling";
 // import { MapCard } from "../public/components/mapCard";
 import AddUserform from "../public/components/addUserform";
 import Adduser from "../public/components/Adduser";
+import UpdateUserform from "../public/components/updateUserform";
 
 function App() {
   return (
@@ -23,8 +24,7 @@ function App() {
         </Routes>
       </div>
     </Router>
-    // <AddUserform />
-    // <AddUser/>
+    // <UpdateUserform/>
   );
 }
 

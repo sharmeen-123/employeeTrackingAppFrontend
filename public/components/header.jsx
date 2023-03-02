@@ -45,7 +45,7 @@ const useStyles = createStyles((theme) => ({
 }));
 
 
-export function HeaderTabs({ user }) {
+export function HeaderTabs({ user, text }) {
   const { classes } = useStyles();
 
   return (
@@ -53,7 +53,7 @@ export function HeaderTabs({ user }) {
       <Container className={classes.mainSection} >
         <Group position='apart'>
         <Text weight={900} size="xl" sx={{ lineHeight: 2 }} >
-                    Dashboard
+                    {text}
         </Text>
 
           <Menu
