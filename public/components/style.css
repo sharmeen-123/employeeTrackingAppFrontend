@@ -14,6 +14,9 @@ body{
     /* border: 2px solid red; */
     width: 90vw;
 }
+.sideBody{
+    width: 100%;
+}
 .nav-bar{
     /* background-color: #DCFFE4; */
     /* overflow: hidden; */
@@ -50,6 +53,7 @@ body{
 .graph{
     width: 50%;
 }
+
 .buttons{
     display: flex;
     justify-content: space-around;
@@ -58,7 +62,7 @@ body{
     display: flex;
     color: #ffffff;
     font-family: 'Microsoft YaHei UI';
-    height: min-content;
+    /* height: min-content; */
     margin-left: 10px;
     padding: 0%;
     padding-left: 5%;
@@ -128,8 +132,16 @@ th{
 }
 .btn{
     display: flex;
-    justify-content: end;
-    height: 3vw;
+    justify-content:space-around;
+    padding: 0%;
+    margin-bottom: 100px;
+    /* margin-left: 40px; */
+    
+    /* height: 3vw; */
+}
+
+.add-user{
+    width: 10vw;
 }
 .payment-Billing{
     display: flex;
@@ -145,13 +157,18 @@ th{
     display: flex;
     margin-left: 5%;
     margin-right: 5%;
+    justify-content: center;
+    align-items: center;
+}
+.paid div{
+    width: 100%;
+    
 }
 .billing{
-    align-self: flex-start;
+    border: 2px solid green;
 }
 .paidd{
-    align-self: flex-end;
-    margin-left: 45vw;
+    border: 2px solid green;
 }
 .pending-users{
     display: flex;

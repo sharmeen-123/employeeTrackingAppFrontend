@@ -104,14 +104,15 @@ export function NavbarSimple() {
           {expandNavbar === false ? (<div
             onClick={() => setExpandNavbar(true)}>
             <svg width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M8.99711 1.49996L3.14088 9.92351C2.90238 10.2666 2.90231 10.7218 3.14071 11.0649L8.99709 19.4942" stroke="#338B47" stroke-width="4" />
-              <rect x="20.7441" y="11.9941" width="18" height="3.5" transform="rotate(180 20.7441 11.9941)" fill="#338B47" />
+              <path d="M11.747 19.4942L17.6033 11.0706C17.8418 10.7276 17.8418 10.2724 17.6034 9.92923L11.747 1.49998" stroke="#338B47" stroke-width="4" />
+              <rect y="9" width="18" height="3.5" fill="#338B47" />
             </svg>
+
           </div>) : (<div
             onClick={() => setExpandNavbar(false)}>
             <svg width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M11.747 19.4942L17.6033 11.0706C17.8418 10.7276 17.8418 10.2724 17.6034 9.92923L11.747 1.49998" stroke="#338B47" stroke-width="4" />
-              <rect y="9" width="18" height="3.5" fill="#338B47" />
+              <path d="M8.99711 1.49996L3.14088 9.92351C2.90238 10.2666 2.90231 10.7218 3.14071 11.0649L8.99709 19.4942" stroke="#338B47" stroke-width="4" />
+              <rect x="20.7441" y="11.9941" width="18" height="3.5" transform="rotate(180 20.7441 11.9941)" fill="#338B47" />
             </svg>
 
           </div>)}
